@@ -15,8 +15,13 @@ class P:
 class C(P):
 	a=60
 	def __init__(self):
-		#super().__init__()
+		super().__init__()
 		self.d=30
+
+	@staticmethod
+	def m3():
+		print('Child static method')
+
 	
 c=C()
 print(c.a)
@@ -24,4 +29,4 @@ print(c.d)
 print(c.b)
 c.m1()
 c.m2()
-c.m3()   
+c.m3()
