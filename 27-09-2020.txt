@@ -1,0 +1,3 @@
+WARNING:root:warning level
+ERROR:root:error level
+CRITICAL:root:critical level
